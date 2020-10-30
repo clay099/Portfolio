@@ -3,7 +3,7 @@ import { Navbar, Nav, Image } from "react-bootstrap";
 
 const NavBarComp = () => {
 	return (
-		<Navbar bg="light" expand="md">
+		<Navbar bg="light" expand="md" className="sticky-top">
 			<Navbar.Brand href="#home">
 				<Image
 					alt=""
