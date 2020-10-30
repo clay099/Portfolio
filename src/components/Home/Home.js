@@ -8,17 +8,21 @@ const Home = () => {
 	console.log(backgroundImg);
 	return (
 		<section id="Home">
-			<Jumbotron
-				fluid
-				style={{
-					backgroundImage: `url(${backgroundImg})`,
-				}}
-			>
+			<Jumbotron fluid>
+				<div
+					id="background"
+					style={{
+						backgroundImage: `url(${backgroundImg})`,
+					}}
+				></div>
 				<Container>
 					<h1 id="Home-title">Clayton Whittaker</h1>
-					<p className="lead" id="Home-lead">
-						This is a modified jumbotron that occupies the entire
-						horizontal space of its parent.
+					<p>
+						<strong>Full Stack Developer</strong>
+						<br />
+						Passion for turing ideas into reality,
+						<br />
+						solving problems and providing workable solutions
 					</p>
 				</Container>
 			</Jumbotron>

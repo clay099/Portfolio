@@ -1,6 +1,32 @@
-.jumbotron {
+/* set location of jumbotron & background */
+.jumbotron,
+#background {
 	text-align: center;
 	height: calc(100vh - 58px);
 	background-size: cover;
 	background-position: center;
+	z-index: 1;
+}
+
+/* remove default background-color */
+.jumbotron {
+	background-color: transparent !important;
+}
+
+/* set background behind jumbotron */
+#background {
+	position: absolute;
+	z-index: -1;
+	bottom: 0;
+	opacity: 0.5;
+	width: 100%;
+}
+
+#Home-title {
+	font-size: 4rem;
+	text-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+
+p {
+	font-size: 1.5rem;
 }
