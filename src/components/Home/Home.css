@@ -2,7 +2,7 @@
 .jumbotron,
 #background {
 	text-align: center;
-	height: calc(100vh - 58px);
+	height: calc(100vh - 56px);
 	background-size: cover;
 	background-position: center;
 	z-index: 1;

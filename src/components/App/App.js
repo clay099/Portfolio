@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Navbar from "../Navbar/Navbar";
 import Home from "../Home/Home";
+import Footer from "../Footer/Footer";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -13,6 +14,7 @@ function App() {
 			<Container fluid id="body">
 				<Home />
 			</Container>
+			<Footer />
 		</div>
 	);
 }
