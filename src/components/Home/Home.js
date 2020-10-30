@@ -5,7 +5,6 @@ import "./Home.css";
 const Home = () => {
 	const backgroundImg =
 		process.env.PUBLIC_URL + "pexels-negative-space-169573.jpg";
-	console.log(backgroundImg);
 	return (
 		<section id="Home">
 			<Jumbotron fluid>
