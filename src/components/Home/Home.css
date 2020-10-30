@@ -1,0 +1,6 @@
+.jumbotron {
+	text-align: center;
+	height: calc(100vh - 58px);
+	background-size: cover;
+	background-position: center;
+}
