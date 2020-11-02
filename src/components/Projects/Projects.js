@@ -2,14 +2,14 @@ import React from "react";
 import SectionHead from "../SectionHead/SectionHead";
 import "./Projects.css";
 import projectsList from "./projectsList";
-import { Card, CardColumns } from "react-bootstrap";
+import { Card, CardDeck } from "react-bootstrap";
 
 const Projects = () => {
 	return (
 		<section id="projects">
-			<Card className="shadow p-3 mb-5 bg-white rounded">
+			<div className="body">
 				<SectionHead title="Projects" />
-				<CardColumns>
+				<CardDeck>
 					{projectsList.map((project) => (
 						<Card
 							style={{ minWidth: "250px" }}
@@ -40,8 +40,8 @@ const Projects = () => {
 							</Card.Body>
 						</Card>
 					))}
-				</CardColumns>
-			</Card>
+				</CardDeck>
+			</div>
 		</section>
 	);
 };
