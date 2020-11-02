@@ -11,7 +11,10 @@ const Projects = () => {
 				<SectionHead title="Projects" />
 				<CardColumns>
 					{projectsList.map((project) => (
-						<Card style={{ minWidth: "250px" }}>
+						<Card
+							style={{ minWidth: "250px" }}
+							className="shadow-sm p-3 mb-5 bg-white rounded"
+						>
 							<Card.Header>
 								<strong>{project.title}</strong>
 							</Card.Header>
