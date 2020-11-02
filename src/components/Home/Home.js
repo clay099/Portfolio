@@ -16,7 +16,7 @@ const Home = () => {
 				></div>
 				<Container>
 					<h1 id="Home-title">Clayton Whittaker</h1>
-					<p>
+					<p className="Home-body">
 						<strong>Full Stack Developer</strong>
 						<br />
 						Passion for turing ideas into reality,
