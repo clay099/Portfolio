@@ -4,10 +4,18 @@
 	margin-left: auto;
 }
 
+.card-header {
+	font-size: 1.3rem;
+}
+
 .card-text {
 	font-size: 1rem;
 }
 
-.projects-description {
-	font-size: 1rem;
+.card-img-top {
+	transition: all 0.5s ease-in-out;
+	padding: 15px 0;
+}
+.card-img-top:hover {
+	transform: scale(1.05);
 }

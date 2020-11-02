@@ -2,25 +2,25 @@ import React from "react";
 import SectionHead from "../SectionHead/SectionHead";
 import "./Projects.css";
 import projectsList from "./projectsList";
-import { Card, CardDeck } from "react-bootstrap";
+import { Card, CardColumns } from "react-bootstrap";
 
 const Projects = () => {
 	return (
 		<section id="projects">
 			<Card className="shadow p-3 mb-5 bg-white rounded">
 				<SectionHead title="Projects" />
-				<CardDeck>
+				<CardColumns>
 					{projectsList.map((project) => (
-						<Card style={{ width: "500px" }}>
+						<Card style={{ minWidth: "250px" }}>
 							<Card.Header>
 								<strong>{project.title}</strong>
 							</Card.Header>
-							<Card.Img
-								variant="top"
-								src={project.img}
-								alt="Project Image"
-							/>
 							<Card.Body>
+								<Card.Img
+									variant="top"
+									src={project.img}
+									alt="Project Image"
+								/>
 								<Card.Text>{project.summary}</Card.Text>
 								<Card.Link
 									href={project.githubLink}
@@ -35,12 +35,9 @@ const Projects = () => {
 									<i class="fas fa-external-link-alt"></i>
 								</Card.Link>
 							</Card.Body>
-							<p className="projects-description">
-								{project.description}
-							</p>
 						</Card>
 					))}
-				</CardDeck>
+				</CardColumns>
 			</Card>
 		</section>
 	);
