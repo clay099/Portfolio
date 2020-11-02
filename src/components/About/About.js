@@ -1,12 +1,11 @@
 import React from "react";
 import SectionHead from "../SectionHead/SectionHead";
-import { Card } from "react-bootstrap";
 import "./About.css";
 
 const About = () => {
 	return (
-		<section id="about">
-			<Card className="shadow p-3 mb-5 bg-white rounded">
+		<section id="about" className="grey">
+			<div className="body">
 				<SectionHead title="About Me" />
 				<p className="About-body">
 					I am a Software Engineer who believes that technology can
@@ -24,7 +23,7 @@ const About = () => {
 					I always seek opportunities and challenges that can provide
 					a meaningful improvement to our ever day lives.
 				</p>
-			</Card>
+			</div>
 		</section>
 	);
 };

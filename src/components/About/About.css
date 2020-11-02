@@ -1,9 +1,23 @@
 #about {
-	width: 90%;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 .About-body {
 	font-size: 1.5rem;
+}
+
+.grey {
+	background-color: lightgray;
+	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+	min-height: calc(100vh - 56px);
+	padding: 3rem;
+	margin-top: -5rem;
+	display: flex;
+}
+
+.body {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	align-self: center;
+	padding: 6rem 0%;
 }
