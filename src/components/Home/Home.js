@@ -19,7 +19,7 @@ const Home = () => {
 					<p className="Home-body">
 						<strong>Full Stack Developer</strong>
 						<br />
-						Passion for turing ideas into reality,
+						Passion for turning ideas into reality,
 						<br />
 						solving problems and providing workable solutions
 					</p>
