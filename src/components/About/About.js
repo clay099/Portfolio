@@ -5,7 +5,7 @@ import "./About.css";
 
 const About = () => {
 	return (
-		<section id="About">
+		<section id="about">
 			<Card className="shadow p-3 mb-5 bg-white rounded">
 				<SectionHead title="About Me" />
 				<p className="About-body">

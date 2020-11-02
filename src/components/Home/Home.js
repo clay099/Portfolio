@@ -6,7 +6,7 @@ const Home = () => {
 	const backgroundImg =
 		process.env.PUBLIC_URL + "pexels-negative-space-169573.jpg";
 	return (
-		<section id="Home">
+		<section id="home">
 			<Jumbotron fluid>
 				<div
 					id="background"
