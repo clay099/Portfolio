@@ -1,12 +1,20 @@
 const skillList = {
-	Languages: ["HTML", "JavaScript", "CSS", "Python"],
-	Frontend: ["React", "Redux", "jQuery", "Bootstrap", "MaterialUI", "SASS"],
+	Languages: ["HTML", "JavaScript", "CSS", "Python", "SQL"],
+	Frontend: [
+		"React",
+		"Redux",
+		"jQuery",
+		"Bootstrap",
+		"MaterialUI",
+		"SASS",
+		"Jasmine",
+	],
 	Backend: [
 		"nodejs",
 		"Express",
+		"Flask",
 		"PostgreSQL",
 		"Jest",
-		"Jasmine",
 		"Mongodb",
 		"Passport",
 	],
