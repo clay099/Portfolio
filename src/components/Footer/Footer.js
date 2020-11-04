@@ -20,6 +20,11 @@ const Footer = () => {
 						<i class="fab fa-github"></i>
 					</div>
 				</a>
+				<a href="mailto: clayton.whittaker@gmail.com">
+					<div class="flex icon" id="icon-3">
+						<i class="fas fa-envelope"></i>
+					</div>
+				</a>
 			</div>
 		</footer>
 	);
