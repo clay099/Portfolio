@@ -14,7 +14,7 @@ function App() {
 	return (
 		<div className="App">
 			<Navbar />
-			<Container fluid id="body">
+			<Container fluid id="body" data-spy="scroll" data-target="#Navbar">
 				<Home />
 				<About />
 				<Projects />
