@@ -6,9 +6,8 @@
 	background-color: lightgray;
 	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 	min-height: calc(100vh - 56px);
-	padding: 3rem;
+	padding: 5rem;
 	margin-top: -5rem;
-	display: flex;
 }
 
 .body {

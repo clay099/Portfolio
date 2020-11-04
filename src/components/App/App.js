@@ -5,6 +5,7 @@ import Home from "../Home/Home";
 import Footer from "../Footer/Footer";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
+import Skills from "../Skills/Skills";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,6 +18,7 @@ function App() {
 				<Home />
 				<About />
 				<Projects />
+				<Skills />
 			</Container>
 			<Footer />
 		</div>
