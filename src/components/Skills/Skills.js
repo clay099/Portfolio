@@ -23,7 +23,7 @@ const Skills = () => {
 							<hr />
 							<div className="row">
 								{skillList[skillType].map((skill) => (
-									<div className="col-2 col-lg-1 skills-card mx-5">
+									<div className="col-2 col-lg-1 skills-card mx-5 mb-4">
 										<img
 											src={`${
 												process.env.PUBLIC_URL +
