@@ -7,13 +7,6 @@ const Skills = () => {
 		<section id="skills" className="grey">
 			<SectionHead title="Skills" />
 			{Object.keys(skillList).map((skillType) => {
-				console.log(
-					`${
-						process.env.PUBLIC_URL +
-						`skills/` +
-						skillList.Languages[0]
-					}`
-				);
 				return (
 					<>
 						<div
